@@ -36,31 +36,39 @@ computer = random.randint(0,3)
 player = input("Choose: 'Rock', 'Paper', 'Scissors' ").lower()
 if player == 'rock':
     if computer == 0:
-        print(rock)
+        print("Player: ", rock)
+        print("Computer: ",rock)
         print("It's a draw!")
     elif computer == 1:
-        print(paper)
+        print("Player: ", rock)
+        print("Computer: ",paper)
         print("Paper wins against rock. Computer wins!")
     elif computer == 2:
-        print(scissors)
+        print("Player: ", rock)
+        print("Computer: ",scissors)
         print("Rock wins against scissors. Player wins!")
 elif player == 'paper':
     if computer == 1:
-        print(paper)
+        print("Player: ", paper)
+        print("Computer: ",paper)
         print("It's a draw!")
     elif computer == 2:
-        print(scissors)
+        print("Player: ", paper)
+        print("Computer: ",scissors)
         print("Scissors wins against paper. Computer wins!")
     elif computer == 0:
         print(rock)
         print("Paper wins against rock. Player wins!")
 elif player == 'scissors':
     if computer == 2:
-        print(scissors)
+        print("Player: ", scissors)
+        print("Computer: ",scissors)
         print("It's a draw!")
     elif computer == 0:
-        print(rock)
+        print("Player: ", scissors)
+        print("Computer: ",rock)
         print("Rock wins against scissors. Computer wins!")
     elif computer == 1:
-        print(paper)
+        print("Player: ", scissors)
+        print("Computer: ",paper)
         print("Scissors wins against paper. Player wins!")
