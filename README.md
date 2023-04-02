@@ -3,3 +3,5 @@
     - Day_2: tip calculator
     - Day_3: treasure island
     - Day_4: rock_paper_scissors
+    - DAy_5: password_generator
+    
